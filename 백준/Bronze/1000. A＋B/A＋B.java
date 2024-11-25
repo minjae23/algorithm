@@ -1,10 +1,12 @@
-import java.util.*;
-public class Main{
-    public static void main(String args[]){
-        int a,b;
-        Scanner keyboard= new Scanner(System.in);
-        a=keyboard.nextInt();
-        b=keyboard.nextInt();
-        System.out.println(a+b);
-    } 
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        int x = in.nextInt();
+        int y = in.nextInt();
+
+        System.out.println(x+y);
+    }
 }
